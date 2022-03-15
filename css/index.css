@@ -17,7 +17,7 @@ body{
     width: 1000px;
     height: 700px;
 
-    margin: auto;
+    margin: 5% auto;
 }
 
 
@@ -67,7 +67,8 @@ body{
 
 
 .button-pointer a h1:hover{
-    background-color: rgba(255,255,255,.8);
+    background-color: #4169E1;
+    color: #fff;
 }
 
 
