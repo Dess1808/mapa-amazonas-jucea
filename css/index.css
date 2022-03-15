@@ -43,9 +43,56 @@ body{
     align-items: center;
 }
 
+.content-polo{
+    display: flex;
+    flex-direction: row;
+    width: 255px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-polo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-polo h1{
+    font-size: 120%;
+    cursor: pointer;
+}
+
+.menu-polo span{
+    width: 7px;
+    height: 7px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.submenu-polo a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 5px;
+}
+
+.submenu-polo a:last-child{
+    padding-bottom: 0;
+}
+
+
+.submenu-polo{
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 25px rgba(0,0,0,.3);
+    visibility: hidden;
+}
+
 /*CSS dos municipios*/
 .manaus{
     position: absolute;
-    transform: translate(742px, 263px);
+    transform: translate(743px, 259px);
 }
 
