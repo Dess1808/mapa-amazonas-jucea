@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: palegreen;
+}
+
+.titulo{
+    position: absolute;
+    width: 350px;
+    font-family: sans-serif;
+}
+
+.mapa-content{
+    width: 1000px;
+    height: 700px;
+
+    margin: auto;
+}
+
+
+.mapa-content img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.municipios{
+    position: relative;
+    top: -100%;
+
+    width: 100%;
+    height: 100%;
+}
+
+.button-pointer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-pointer a{
+    text-decoration: none;
+}
+
+.button-pointer a h1{
+    font-size: 83%;
+    font-family: sans-serif;
+    transition: 0.2s ease-in;
+    padding: 3px;
+    border-radius: 5px;
+    color: #000;
+    margin-bottom: 1px;
+}
+
+.button-pointer button{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: #000;
+}
+
+
+.button-pointer a h1:hover{
+    background-color: rgba(255,255,255,.8);
+}
+
+
+/*CSS dos municipios*/
+.manaus{
+    position: absolute;
+    transform: translate(749px, 280px);
+}
+
+.manacapuru{
+    position: absolute;
+    transform: translate(700px, 319px);
+}
+
+.itacoatiara{
+    position: absolute;
+    transform: translate(828px, 310px);
+}
+
+.parintins{
+    position: absolute;
+    transform: translate(925px, 258px);
+}
