@@ -5,6 +5,7 @@
 
 body{
     background-color: palegreen;
+    font-family: sans-serif;
 }
 
 .titulo{
@@ -35,60 +36,16 @@ body{
     height: 100%;
 }
 
-.button-pointer{
+.localization{
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.button-pointer a{
-    text-decoration: none;
-}
-
-.button-pointer a h1{
-    font-size: 83%;
-    font-family: sans-serif;
-    transition: 0.2s ease-in;
-    padding: 3px;
-    border-radius: 5px;
-    color: #000;
-    margin-bottom: 1px;
-}
-
-.button-pointer button{
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
-    background-color: #000;
-}
-
-
-.button-pointer a h1:hover{
-    background-color: #4169E1;
-    color: #fff;
-}
-
-
 /*CSS dos municipios*/
 .manaus{
     position: absolute;
-    transform: translate(749px, 280px);
+    transform: translate(742px, 263px);
 }
 
-.manacapuru{
-    position: absolute;
-    transform: translate(700px, 319px);
-}
-
-.itacoatiara{
-    position: absolute;
-    transform: translate(828px, 310px);
-}
-
-.parintins{
-    position: absolute;
-    transform: translate(925px, 258px);
-}
