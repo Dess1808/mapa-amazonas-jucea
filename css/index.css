@@ -151,3 +151,21 @@ body{
     background-color: #8B4513;
 }
 /*end Manicore*/
+
+
+/*start Umaita*/
+.umaita{
+    position: absolute;
+    transform: translate(562px, 525px);
+}
+
+.umaita .polo-menu li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.umaita .polo-menu li h1 span{
+    background-color: #696969;
+}
+
+/*end Umaita*/
