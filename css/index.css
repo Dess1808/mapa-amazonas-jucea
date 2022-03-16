@@ -46,7 +46,7 @@ body{
 .content-polo{
     display: flex;
     flex-direction: row;
-    width: 255px;
+    width: 316px;
     justify-content: space-between;
     align-items: center;
 }
@@ -55,11 +55,16 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 113px;
 }
 
 .menu-polo h1{
     font-size: 120%;
     cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px;
+    transition: 0.1s ease-in-out;
 }
 
 .menu-polo span{
@@ -70,11 +75,16 @@ body{
 }
 
 .submenu-polo a{
+    font-size: 19px;
     display: flex;
     flex-direction: column;
     text-decoration: none;
     color: #000;
     padding-bottom: 5px;
+}
+
+.submenu-polo a:hover{
+    color: slategray;
 }
 
 .submenu-polo a:last-child{
@@ -83,16 +93,17 @@ body{
 
 
 .submenu-polo{
-    padding: 5px;
+    padding: 7px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 25px rgba(0,0,0,.3);
+    width: 190px;
     visibility: hidden;
 }
 
 /*CSS dos municipios*/
 .manaus{
     position: absolute;
-    transform: translate(743px, 259px);
+    transform: translate(722px, 237px   );
 }
 

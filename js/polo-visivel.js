@@ -15,4 +15,6 @@ const subHidden = () => {
 //     setTimeout(subHidden, 2000);
 // })
 
-menuNome.addEventListener('click', subShow)
+menuNome.addEventListener('mouseenter', subShow)
+subMenuPolo.addEventListener('mouseleave', subHidden)
+
