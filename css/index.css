@@ -43,67 +43,111 @@ body{
     align-items: center;
 }
 
-.content-polo{
-    display: flex;
-    flex-direction: row;
-    width: 316px;
-    justify-content: space-between;
-    align-items: center;
+.polo-menu li{
+    list-style: none;
 }
 
-.menu-polo{
+.polo-menu li h1{
     display: flex;
     flex-direction: column;
+    width: 100px;
+    font-size: 72%;
     align-items: center;
-    width: 113px;
-}
-
-.menu-polo h1{
-    font-size: 120%;
-    cursor: pointer;
     text-align: center;
-    border-radius: 5px;
-    padding: 2px;
-    transition: 0.1s ease-in-out;
+    cursor: pointer;
 }
 
-.menu-polo span{
+
+.polo-menu li h1 span{
     width: 7px;
     height: 7px;
-    background-color: #000;
-    border-radius: 50%;
+    border-radius: 50px;
+    background-color:#4169E1;
 }
 
-.submenu-polo a{
-    font-size: 19px;
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color: #000;
-    padding-bottom: 5px;
+.polo-submenu{
+    position: absolute;
+    font-size: 120%;
+    width: 200px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 25px rgba(0,0,0,.3);
+    transform: translate(101px, -63px);
+    visibility: hidden;
+    opacity: 0;
+    transition: 100ms ease-in;
 }
 
-.submenu-polo a:hover{
-    color: slategray;
+.polo-submenu li{
+    padding-bottom: 4px;
 }
 
-.submenu-polo a:last-child{
+.polo-submenu li:last-child{
     padding-bottom: 0;
 }
 
-
-.submenu-polo{
-    padding: 7px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 25px rgba(0,0,0,.3);
-    width: 190px;
-    visibility: hidden;
+.polo-submenu li a{
+    text-decoration: none;
+    color: #000;
 }
+
+.polo-submenu li a:hover{
+    color: slategray;
+}
+
+.polo-menu li:hover .polo-submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
 
 /*CSS dos municipios*/
+
+/*start Manaus*/
 .manaus{
     position: absolute;
-    transform: translate(722px, 237px   );
+    transform: translate(728px, 275px);
+}
+/*end Manaus*/
+
+/*start Autazes*/
+.autazes{
+    position: absolute;
+    transform: translate(774px, 335px);
 }
 
+.autazes .polo-menu li h1 span{
+    background-color: #FF1493;
+}
+/*end Autazes*/
+
+
+/*start Borba*/
+.borba{
+    position: absolute;
+    transform: translate(754px, 379px);
+}
+
+.borba .polo-menu li h1 span{
+    background-color: #8B4513;
+}
+/*end Borba*/
+
+
+/*start Manicore*/
+.manicore{
+    position: absolute;
+    transform: translate(654px, 447px);
+}
+
+
+.manicore .polo-menu li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.manicore .polo-menu li h1 span{
+    background-color: #8B4513;
+}
+/*end Manicore*/
