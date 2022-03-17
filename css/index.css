@@ -12,6 +12,7 @@ body{
     position: absolute;
     width: 350px;
     font-family: sans-serif;
+    font-size: 145%;
 }
 
 .mapa-content{
@@ -169,3 +170,18 @@ body{
 }
 
 /*end Umaita*/
+
+/*start Tefe*/
+.tefe{
+    position: absolute;
+    transform: translate(466px, 295px)
+}
+
+.tefe .polo-submenu{
+    width: 100px;
+}
+/*end Tefe*/
+
+/*start JURUA*/
+
+/*end JURUA*/
