@@ -8,18 +8,18 @@ body{
     font-family: sans-serif;
 }
 
-.titulo{
-    position: absolute;
-    width: 350px;
-    font-family: sans-serif;
-    font-size: 145%;
-}
+
 
 .mapa-content{
     width: 1000px;
     height: 700px;
 
     margin: 5% auto;
+}
+
+.titulo{
+    font-family: sans-serif;
+    font-size: 200%;
 }
 
 
